@@ -47,7 +47,8 @@
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    gap: 25px;
+    /* gap: 25px; */
+    justify-content: space-between;
   }
   
   .register-bg {
@@ -58,8 +59,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    /* gap: 25px; */
     padding: 0 20px;
+    padding-top: 50px;
+    justify-content: space-evenly;
   }
   .setpass-bg{
       background: url(../images/Login/Forget\ password\ \ -\ Set\ Password-page-bg.png);
@@ -70,19 +73,21 @@
       display: flex;
       flex-direction: column;
       padding: 0 20px;
-      padding-top: 60%;
+      /* padding-top: 60%; */
+      justify-content: center;
   }
   .login-bg{
       background: url(../images/Login/Login-page-bg.png);
-      height: 100%;
+      height: 100vh;
       background-size: cover;
       background-position: center;
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      /* gap: 25px; */
       padding: 0 20px;
-      padding-top: 25px;
+      padding-top: 50px;
+      justify-content: space-evenly;
   }
   
   .login-bgotp{
@@ -93,9 +98,10 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      /* gap: 25px; */
       padding: 0 20px;
-      padding-top: 25px;
+      padding-top: 50px;
+      justify-content: space-around;
   }
   .login-enterotpbg{
       background: url(../images/Login/Login\ With\ ENTER\ OTP-page-bg.png);
@@ -108,6 +114,7 @@
       gap: 50px;
       padding: 0 20px;
       padding-top: 25px;
+      justify-content: space-evenly;
   }
   .register-otpbg{
       background: url(../images/Login/Register\ -\ Enter\ OTP-page-bg.png);
@@ -120,6 +127,7 @@
       gap: 50px;
       padding: 0 20px;
       padding-top: 50px;
+      justify-content: space-around;
   }
   .forgot-passbgotp{
       background: url(../images/Login/Forget\ Password-page-bg.png);
@@ -144,9 +152,10 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 50px;
+      /* gap: 50px; */
       padding: 0 20px;
       padding-top: 25px;
+      justify-content: space-around;
   }
   
   .createregister-bg{
