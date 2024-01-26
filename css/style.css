@@ -17,9 +17,10 @@
     font-family: "Inter";
   }
   
-  .container {
-    max-width: 425px;
+  .container-sm {
+    max-width: 540px;
     margin: 0 auto;
+    padding: 0;
   }
   
   a{
